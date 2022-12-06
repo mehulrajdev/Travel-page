@@ -3,11 +3,24 @@ body{
     margin: 0;
 }
 
+#container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 60px;
+}
+
 
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+header li{
+    margin-left: 20px;
 }
 
 #page-logo a{
