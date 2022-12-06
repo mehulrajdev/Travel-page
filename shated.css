@@ -1,36 +1,32 @@
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
 }
 
-#container{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 60px;
-    
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 60px;
 }
 
-
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-header li{
-    margin-left: 20px;
+header li {
+  margin-left: 20px;
 }
 
-#page-logo a{
-
-    padding: 10px;
-    font-family: "Oleo Script", sans-serif;
-    color: yellowgreen;
-    font-size: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+#page-logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: yellowgreen;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }

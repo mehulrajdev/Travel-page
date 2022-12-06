@@ -1,49 +1,50 @@
-#disc{
-    height: 800px;
-    background-image: url("/images/ocean.png");
-    background-position: center;
-    background-size: cover;
+#disc {
+  height: 800px;
+  background-image: url("/images/ocean.png");
+  background-position: center;
+  background-size: cover;
 }
 
-#disc-content{
-    width: 900px;
-    background-color: rgba(51, 47, 47, 0.8);
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 8px;
-    text-align: center;
-    padding: 50px 0;
-    margin: 0 auto;
-    position: relative;
-    top: 200px;
+#disc-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
 }
 
-#disc-content h1{
-    color: white;
-    text-transform: uppercase;
-    font-size: 52px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+#disc-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 52px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
-#disc-content p{
-    color: white;
-    text-transform: uppercase;
-    font-style: 24px;
-    font-weight: 300;
-    margin-bottom: 32px;
+#disc-content p {
+  color: white;
+  text-transform: uppercase;
+  font-style: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
 }
 
-#disc-content a{
-    text-decoration: none;
-    background-color: rgb(255, 251, 0) ;
-    padding: 12px 24px;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 8px;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+#disc-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
 }
 
-#disc-content a:hover{
-    background-color: rgb(255, 81, 0);
+#disc-content a:hover {
+  background-color: rgb(255, 81, 0);
 }
