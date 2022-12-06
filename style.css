@@ -13,4 +13,21 @@
     text-align: center;
     padding: 50px 0;
     margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#disc-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#disc-content p{
+    color: white;
+    text-transform: uppercase;
+    font-style: 24px;
+    font-weight: 300;
 }
