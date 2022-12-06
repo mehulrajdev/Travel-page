@@ -1,0 +1,16 @@
+#disc{
+    height: 800px;
+    background-image: url("/images/ocean.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#disc-content{
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+}
