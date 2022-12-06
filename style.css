@@ -30,4 +30,20 @@
     text-transform: uppercase;
     font-style: 24px;
     font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#disc-content a{
+    text-decoration: none;
+    background-color: rgb(255, 251, 0) ;
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#disc-content a:hover{
+    background-color: rgb(255, 81, 0);
 }
