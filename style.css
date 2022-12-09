@@ -48,3 +48,21 @@
 #disc-content a:hover {
   background-color: rgb(255, 81, 0);
 }
+
+
+.destination{
+  margin: 0 20px;
+}
+
+.destination img{
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#destinations{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
