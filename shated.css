@@ -56,3 +56,24 @@ header a:hover{
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
+
+
+footer{
+  background-color: black;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+}
+
+footer li{
+  height: 80px;
+  width: 80px;
+  margin: 0 50px;
+}
+
+footer img{
+  height: 100%;
+  width: 100%;
+}
