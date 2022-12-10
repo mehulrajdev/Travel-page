@@ -1,5 +1,5 @@
 body{
-
+    background-color: grey;
 }
 
 header{
@@ -13,9 +13,29 @@ main ul{
 
 main li{
     display: flex;
+    background-color: white;
+    box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 main li img{
     width: 300px;
     height: 280px;
+    object-fit: cover;
 }
+
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions{
+    text-align: right;
+}
+
+.actions a{
+    text-decoration: none;
+} 
