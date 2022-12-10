@@ -38,4 +38,11 @@ main li img{
 
 .actions a{
     text-decoration: none;
+    padding: 6px;
+    color: rgb(21, 211, 228);
+    border-radius: 8px;
 } 
+
+.actions a:hover{
+    color: rgb(59, 107, 112);
+}
