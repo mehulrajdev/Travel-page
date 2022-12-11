@@ -14,14 +14,13 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  
 }
 
-#container > nav > ul{
+#container > nav > ul {
   display: flex;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +34,7 @@ header li {
   margin-left: 20px;
 }
 
-header a{
+header a {
   color: rgb(255, 251, 0);
   text-decoration: none;
   font-size: 20px;
@@ -46,7 +45,7 @@ header a{
   left: 0;
 }
 
-header a:hover{
+header a:hover {
   color: rgb(77, 77, 77);
   background-color: rgb(255, 251, 0);
 }
@@ -61,24 +60,23 @@ header a:hover{
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-
-footer{
+footer {
   background-color: black;
   padding: 36px;
 }
 
-footer ul{
+footer ul {
   display: flex;
   justify-content: center;
 }
 
-footer li{
+footer li {
   height: 80px;
   width: 80px;
   margin: 0 50px;
 }
 
-footer img{
+footer img {
   height: 100%;
   width: 100%;
 }

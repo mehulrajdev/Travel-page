@@ -1,72 +1,67 @@
-body{
-    background-color: grey;
+body {
+  background-color: grey;
 }
 
-header{
-
-    position: static;
+header {
+  position: static;
 }
-main ul{
-    width: 1200px;
-    margin: 0 auto 48px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px 20px;
-}
-
-
-li:nth-of-type(3){
-    grid-column: 1/ span 2;
+main ul {
+  width: 1200px;
+  margin: 0 auto 48px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
 }
 
-main li{
-    display: flex;
-    background-color: white;
-    box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    overflow: hidden;
-    
-}
- 
-
-main li img{
-    width: 300px;
-    height: 280px;
-    object-fit: cover;
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
 }
 
-.item-content{
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
-.actions{
-    text-align: right;
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
 }
 
-.actions a{
-    text-decoration: none;
-    padding: 6px;
-    color: rgb(21, 211, 228);
-    border-radius: 8px;
-} 
-
-.actions a:hover{
-    color: rgb(59, 107, 112);
+.item-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-
-#page-logo a{
-    color: rgb(184, 230, 235);
+.actions {
+  text-align: right;
 }
 
-header a{
-    color: rgb(184, 230, 235);
+.actions a {
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(21, 211, 228);
+  border-radius: 8px;
 }
 
-header nav a:hover{
-    background-color: rgb(184, 230, 235);
-    color: rgb(59, 59, 59);
+.actions a:hover {
+  color: rgb(59, 107, 112);
+}
+
+#page-logo a {
+  color: rgb(184, 230, 235);
+}
+
+header a {
+  color: rgb(184, 230, 235);
+}
+
+header nav a:hover {
+  background-color: rgb(184, 230, 235);
+  color: rgb(59, 59, 59);
 }
